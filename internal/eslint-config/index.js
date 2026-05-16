@@ -551,6 +551,8 @@ export default defineConfig([
       '!docs/.vitepress/crowdin/en-US',
       'docs/.vitepress/dist/*',
       '!.*',
+      'BUILD_ANALYSIS.md',
+      'ilink-demo.ts',
     ],
   },
 ])
